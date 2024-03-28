@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="header">
+        <button class="theme" id="theme-btn">Dark</button>
+    </div>
+    
+    <div class="card">
+        <h3 class="card-title">Who To Follow</h3>
+        <span class="divider"></span>
+
+        <!-- first profile -->
+        <div class="profile">
+            <div class="profile-pic img-one"><img src="images/Designer (1).png" alt=""  width="40px" style="border-radius: 50%;"></div>
+            <div class="profile-info">
+                <span class="display-name">Jerry</span>
+                <san class="username">@jerryjoo</san>
+            </div>
+            <button class="follow-btn" onclick="followBtn(this)">Follow</button>
+        </div>
+
+        <!-- second profile -->
+        <div class="profile">
+            <div class="profile-pic"><img src="images/Designer (2).png" alt=""  width="40px" style="border-radius: 50%;"></div>
+            <div class="profile-info">
+                <span class="display-name">Yuvan</span>
+                <san class="username">@yuvansha</san>
+            </div>
+            <button class="follow-btn" onclick="followBtn(this)">Follow</button>
+        </div>
+
+        <!-- third profile -->
+        <div class="profile">
+            <div class="profile-pic"><img src="images/Designer (3).png" alt="" width="40px" style="border-radius: 50%;"></div>
+            <div class="profile-info">
+                <span class="display-name">Katherine</span>
+                <san class="username">@Katherineterasa</san>
+            </div>
+            <div class="follow-div" id="folow"></div>
+            <button class="follow-btn" onclick="followBtn(this)">Follow</button>
+        </div>
+
+        <!-- anchor tag -->
+        <div class="show"><a href="#">Show More...</a></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
